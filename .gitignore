@@ -1,0 +1,93 @@
+# Python Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# Python Build
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# AI Models & Weights
+models/*.pt
+models/*.pth
+models/*.h5
+models/*.onnx
+models/*.engine
+models/*.tflite
+models/*.safetensors
+*.ckpt
+
+# YOLO Outputs
+runs/
+runs_*/
+datasets/
+weights/
+results/
+predictions/
+
+# DeepFace
+.deepface/
+.deepface/weights/
+
+# Images & Videos
+outputs/
+captures/
+recordings/
+screenshots/
+temp/
+tmp/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# IDE & Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Core Dumps
+core
+core.*
+*.core
+
+# TensorFlow
+events.out.tfevents.*
+checkpoint
+
+# Local Reports
+install-report.json
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
